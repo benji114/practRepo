@@ -1,0 +1,9 @@
+1: 对于文本文件(.txt,.java,.c,.cpp),使用字符流处理(fileIO,fileReadder,fileWriter),若使用字节流，可能会出现乱码
+2: 对于非文本文件(.jpg,.mp3,.mp4,.avi,.doc,...)，使用字节流处理(FileIOStream)
+
+流体系结构：
+节点流（文件流）                                       缓冲流（处理流的一种）
+FileInputStream  (read(byte[] buffer))               BufferedInputStream  (read(byte[] buffer))
+FileOutputStream  (write(byte[] buffer,0,len))       BufferedInputStream    (write(byte[] buffer,0,len))  //flush()刷新缓存区
+FileReader   (read(char[] char))                     BufferedInputStream (read(char[] char))
+FileWriter   (write(char[] char,0,len))              BufferedInputStream    (write(byte[] char,0,len))

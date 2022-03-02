@@ -1,0 +1,26 @@
+upload:
+git add
+git commit -m "message"
+git push
+
+download file from github:
+git pull
+git checkout
+
+initilize folder for git:
+git init
+
+check git status:
+git status
+
+set up user name and email:
+git config --global user.email "email address"
+git config --global user.name "name"
+
+using git with access token:
+git push https:///[access token]@github.com/[username]/[repositry name].git
+
+set up url:
+git remote add url (add new url)
+git remote -v (check current url)
+git remote set-url url
