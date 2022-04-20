@@ -24,3 +24,7 @@ set up url:
 git remote add url (add new url)
 git remote -v (check current url)
 git remote set-url url
+
+add SSh key in custom location
+git config core.sshCommand "ssh -i  <file path> -o IdentitiesOnly=yes -F /dev/null"
+on mac: leave out -F till end part
