@@ -1,0 +1,2 @@
+when variable has --: infront: mean the variable will minus 1 first before actually do the operation
+after: mean the variable will do the operation(plus,minus,subtract,divide)first,then minus 1 from itself;

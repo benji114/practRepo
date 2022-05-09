@@ -18,7 +18,7 @@ public class Puzzle {
         String temp = "";
         for (int j = words.length()-1; j >= 0 ; j--) {
             if(words.charAt(j)!= ' '){
-                temp += words.charAt(j);
+                temp = words.charAt(j) + temp;
             }else {
                 newReverseWords += temp +" ";
                 temp="";
